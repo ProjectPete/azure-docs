@@ -168,6 +168,9 @@ Follow these steps to prepare the development environment for the DevKit:
         "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
         ```
 
+   > [!NOTE]
+   > This board is not currently listed on the Microsoft Store version of Arduino. If you only have the Store App, you will receive the following error: "Cannot find Arduino IDE. Please specify the "arduino.path" in the User Settings. Requires a restart after change.". This tutorial assumes you will install the Official Arduino desktop application, from the link above.
+
     * **macOS**:
 
         ```json
