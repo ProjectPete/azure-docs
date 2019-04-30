@@ -168,6 +168,22 @@ Follow these steps to prepare the development environment for the DevKit:
         "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
         ```
 
+    * **Windows App version, installed via Microsoft Store**:
+    
+    >[!NOTE]
+    > To find your actual path to the Arduino executable:
+    1. Run the Microsoft Store Arduino App. 
+    2. Open Task Manager and expand the Arduino process.
+    3. Select and open 'properties' for the path to the current Java process. 
+    4. Open the folder in File Manager, then skip up a few directories, until you find the actual Arduino executable folder.
+
+        ```json
+        "arduino.path": "C:\\Program Files\\WindowsApps\\ArduinoLLC.ArduinoIDE_x.x.x.x_x86__xxxxxxxxxxxxxx",
+        "arduino.additionalUrls": "https://raw.githubusercontent.com/VSChina/azureiotdevkit_tools/master/package_azureboard_index.json"
+        ```
+
+
+
     * **macOS**:
 
         ```json
