@@ -55,7 +55,7 @@ To connect the DevKit to your computer, follow these steps:
 
 ## Quickstart: Send telemetry from DevKit to an IoT Hub
 
-The quickstart uses pre-compiled DevKit firmware to send the telemetry to the IoT Hub. Before you run it, you create an IoT hub and register a device with the hub.
+The quickstart uses pre-compiled DevKit firmware to send the telemetry to the IoT Hub. Before you run it, you will need to create an IoT hub and register a device with the hub.
 
 ### Create an IoT hub
 
@@ -147,8 +147,6 @@ Follow these steps to prepare the development environment for the DevKit:
 4. Look for [Azure IoT Tools](https://aka.ms/azure-iot-tools) in the extension marketplace and install it.
     ![Install Azure IoT Tools](media/iot-hub-arduino-devkit-az3166-get-started/getting-started/install-azure-iot-tools.png)
 
-    Or use this direct link:
-    > [!div class="nextstepaction"]
     > [Install Azure IoT Tools extension pack](vscode:extension/vsciot-vscode.azure-iot-tools)
 
     > [!NOTE]
